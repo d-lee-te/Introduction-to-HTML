@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <!--Remember to create a style sheet and mark each of the different types of headings.
+    H1 is the Title heading
+    H2 is the Section Titles
+    H3 is a subsection -->
+    <title>Intoduction to HTML</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, HTML Tutorial">
+    <meta name="description" content="I'm making a website based on this tutorial: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">
+    <meta name="author" content="David">
+    <meta http-equiv = "refresh" content = "1200">
+    <!--Remember that you can change the icon of the website too if you want; You just need a .ico/.gif/.png-->
+    </head>
+
+    <body>
+    <h1 align = center><b><u>Intoduction to HTML</u></b></h1>
+    <hr>
+    <h2><u>Getting Started with HTML</u></h2>
+    <p>
+        <h3><u>Elements</u></h3>
+        Elements in HTML come in the form of:
+        <dl>
+            <dt><b>Opening Tag</b></dt>
+            <dd>This describes what kind of element the following text or element will be.<br>
+                It should always come before the text we're about to write.</dd>
+            <dt><b>Content</b></dt>
+            <dd>Content refers to...well the content of the element (aka the text).</dd>
+            <dt><b>Closing Tag</b></dt>
+            <dd>This tag is similar to the opening tag.<br> 
+                Instead of describing what kind of element the content is, it instead describes where the element ends.</dd>
+        </dl> 
+    </p>
+    <p>
+        The tutorial would now like me to emphasize how <em>cool</em> emphasizing tags are so...
+    </p>
+    <h3><u>Empty Elements</u></h3>
+    <p>
+        "Not all elements follow the pattern of an opening tag, content, and a closing tag. Some elements consist of a single tag..."
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="blank">(Source)</a><br><br>
+        <!--Watch as I use the magic of divs to move the button below the image and the text to the right of the image and the button.-->
+        <div style = 'margin-top:-1%; margin-bottom:0%'>
+            <div style="float:left; width: 50%; height: 50%; margin-right:-24.5%">
+                <img src="https://pbs.twimg.com/media/FdI6wL9aMAIu7XD?format=png&name=900x900" 
+                height = 50%
+                width = 50%><br>
+                <a href="https://twitter.com/Evolution_ygo/status/1572383830065188865" target="blank">
+                    <button name="t_source_button" type="button">
+                        Source
+                    </button>
+                </a>
+            </div>
+            <div>
+            <h3><u>Hyperlinks</u></h3>
+            <p>
+                This one is pretty straight foward.
+                Just check the source of the quote above me!
+            </p>
+            <h3><u>Embedding Documents</u></h3>
+            <iframe width= 60% height= 543px src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR8V7W9aQ-zq5Ahz6IYeX0ibSxO2iJolO85dMbDM_ul6j2JCzb6HIvwY3D-ksJ-oJCSYzurqaGqiZTq/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            </div>
+        </div>
+    </p>
+    <br>
+    test
+    </body>
+</html>
