@@ -11,23 +11,30 @@
     <meta name="description" content="I'm making a website based on this tutorial: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">
     <meta name="author" content="David">
     <meta http-equiv = "refresh" content = "1200">
+    <link rel="stylesheet" href="stylesheet.css">
     <!--Remember that you can change the icon of the website too if you want; You just need a .ico/.gif/.png-->
+    <!--Internal Style Sheet-->
+    <style>
+    dt    {
+        font-weight:bold;
+    }
+    </style>
     </head>
 
     <body>
     <h1 align = center><b><u>Intoduction to HTML</u></b></h1>
     <hr>
-    <h2><u>Getting Started with HTML</u></h2>
+    <h2>Getting Started with HTML</h2>
     <p>
-        <h3><u>Elements</u></h3>
+        <h3>Elements</h3>
         Elements in HTML come in the form of:
         <dl>
-            <dt><b>Opening Tag</b></dt>
+            <dt>Opening Tag</dt>
             <dd>This describes what kind of element the following text or element will be.<br>
                 It should always come before the text we're about to write.</dd>
-            <dt><b>Content</b></dt>
+            <dt>Content</dt>
             <dd>Content refers to...well the content of the element (aka the text).</dd>
-            <dt><b>Closing Tag</b></dt>
+            <dt>Closing Tag</dt>
             <dd>This tag is similar to the opening tag.<br> 
                 Instead of describing what kind of element the content is, it instead describes where the element ends.</dd>
         </dl> 
@@ -35,7 +42,7 @@
     <p>
         The tutorial would now like me to emphasize how <em>cool</em> emphasizing tags are so...
     </p>
-    <h3><u>Empty Elements</u></h3>
+    <h3>Empty Elements</h3>
     <p>
         "Not all elements follow the pattern of an opening tag, content, and a closing tag. Some elements consist of a single tag..."
         <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="blank">(Source)</a><br><br>
@@ -52,17 +59,17 @@
                 </a>
             </div>
             <div>
-            <h3><u>Hyperlinks</u></h3>
+            <h3>Hyperlinks</h3>
             <p>
                 This one is pretty straight foward.
                 Just check the source of the quote above me!
             </p>
-            <h3><u>Embedding Documents</u></h3>
+            <h3>Embedding Documents</h3>
             <iframe width= 60% height= 543px src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR8V7W9aQ-zq5Ahz6IYeX0ibSxO2iJolO85dMbDM_ul6j2JCzb6HIvwY3D-ksJ-oJCSYzurqaGqiZTq/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </div>
         </div>
     </p>
     <br>
-    test
+    <p class="special">This is special text because it's using the special css class</p>
     </body>
 </html>
